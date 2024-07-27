@@ -1,7 +1,7 @@
 import java.util.*;
 public class BuySellStocks {
     public static int maxProfit(int prices[]){
-        int buyPrice=0;
+        int buyPrice=Integer.MAX_VALUE;
         int maxProfit=0;
         for (int i = 0; i < prices.length; i++) {
             if (buyPrice<prices[i]) {  
