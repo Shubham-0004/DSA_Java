@@ -1,6 +1,8 @@
 import java.util.*;
-import java.util.Arrays;
 public class SelectionSort {
+
+    // pick the smallest element from the unsorted part and put it in beginning
+
     public static void SelectionSort(int array[]){
         for (int i = 0; i < array.length-1; i++) {
             int minPos=i;

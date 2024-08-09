@@ -2,6 +2,9 @@ import java.util.*;
 
 
 public class InsertionSort {
+
+    // pick an element from the unsorted part and put it in right position
+    
     public static void InsertionSort(int numbers[]){
         for (int i = 0; i < numbers.length; i++) {
             int curr=numbers[i];
