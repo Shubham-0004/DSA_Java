@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class xRaisedN {
+public class xRaisedN { // time complexity is O(n)
     public static int Power(int base,int exp){
         if (exp==0) {
             return 1;
